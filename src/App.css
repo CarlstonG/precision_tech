@@ -11,6 +11,7 @@ nav {
   justify-content: space-evenly;
   background-color: #fff;
   align-items: center;
+  z-index: 999;
 }
 .logo{
   width: 260px;
@@ -67,13 +68,132 @@ a:hover {
   display: flex;
   height: 1350px;
   width: 100%;
-  background: url('./assets/heroBanner.jpg') center/cover no-repeat; 
+  background: rgba(0, 0, 0, 0.2) url('./assets/heroBanner.jpg') center/cover no-repeat; 
   align-items: center;
   justify-content: center;
+  
+}
+.cards-container {
+  position: relative;
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  width: 500px;
+  margin: 100px; /* Add margin as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+.card h2 {
+  text-align: center;
+  width: 100%; /* Ensure the heading takes full width */
+}
+.card p {
+  text-indent: 20px;
+  margin: 10px 0;
+  width: 100%; /* Ensure paragraphs take full width */
+}
+.card p::before {
+  content: '✔️'; /* Bullet point character */
+  font-size: 24px;
+  margin-right: 5px; 
+  transform: translateX(-50%);
+}
+.model-1{
+  border-radius: 10px;
+  display: flex;
+  margin-top: 100px;
+  width: 700px;
+  height: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+/* Footer Layout */
+
+.Footer-Container {
+  position: sticky;
+  overflow: hidden;
+  bottom: 1;
+  width: 100%;
+  height: 350px;
+  background-color: #111;
+  color: #fff;
+  justify-items: center;
+  text-align: center;
+}
+.copy-write{
+  font-size: 15px;
+  margin-top: 120px;
+  font-weight: 200;
+}
+.Card-Container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo-footer {
+  width: 150px;
+  height: 150px;
+}
+.Info-footer {
+  margin-right: auto; /* Push the Info-footer to the left as much as possible */
+}
+.Info-footer h4{
+  padding-top: 10px;
+}
+.Card-Container-right {
+  margin-left: 1px; /* Adjust as needed */
+}
+.tech{
+  color: rgb(242, 60, 60);;
+}
+/* Virutal Staff page */
+.VirtualStaff {
+  display: flex;
+  height: 100vh;
+  
+}
+.VirtualStaff {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust the height as needed */
 }
 
+.card-img {
+  max-width: 100%;
+  max-height: 70vh; /* Adjust the maximum height as needed */
+}
+
+.card-img img {
+  width: 650px;
+  height:750px;
+  padding-bottom: 50px;
+  object-fit: cover; /* Adjust the value as needed (cover, contain, etc.) */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
+  body, html {
+    overflow-x: hidden;
+  }
+  .cards-container {
+    overflow: hidden;
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: center; /* Center items horizontally in column direction */
+  }
+  .cards-container .card{
+    width: 80%;
+    margin-top: 5px;
+  }
+  .object1 img {
+    background-size: contain;
+    width: 340px;
+  }
   .navbar{
     position: relative;
     transition: 0.5s all ease-in-out;
@@ -127,5 +247,29 @@ a:hover {
     -ms-transform: rotate(90deg);   /* IE 9 */
     -o-transform: rotate(90deg);   /* Opera */
     transform: rotate(90deg);
+  }
+  /* footer */
+  .Card-Container {
+    height: 320px;
+    display: block;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+
+  .Info-footer h4{
+    padding-top: 1px;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  .copy-write{
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 200;
+  }
+  .Card-Container-right{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
   }
 }

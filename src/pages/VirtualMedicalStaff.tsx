@@ -1,10 +1,14 @@
 import React from 'react';
+import girlhero from '../assets/girlhero.png'
 
 const VirtualMedicalStaff: React.FC = () => {
   return (
-    <div>
-      <h1>Virtual Medical Staff</h1>
+    <div className='VirtualStaff'>
+      <div className="card-img">
+        <img src={girlhero} alt="hero girl" />
+      </div>
     </div>
+  
   );
 }
 

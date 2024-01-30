@@ -4,6 +4,7 @@ import Header from './components/Header';
 import routes from './pages/routes';
 
 import './App.css';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
             <Route key={index} path={route.path} element={<route.component />} />
           ))}
         </Routes>
+        <Footer/>
       </>
     </Router>
   );

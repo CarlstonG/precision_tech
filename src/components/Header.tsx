@@ -22,12 +22,12 @@ const HandleMenu = () => {
       <button className='toggle-icon' onClick={handleToggle}>|||</button>
         <ul className='links'>
           <li></li>
-          <li><Link to="/virtual-medical-staff" onClick={HandleMenu}>Virtual Medical Staff</Link></li>
-          <li><Link to="/rcm" onClick={HandleMenu}>RCM</Link></li>
-          <li><Link to="/medical-billers" onClick={HandleMenu}>Medical Billers</Link></li>
+          <li><Link to="/virtual-medical-staff" onClick={HandleMenu}>Virtual Staff</Link></li>
+          <li><Link to="/rcm" onClick={HandleMenu}>Web Solutions</Link></li>
+          <li><Link to="/medical-billers" onClick={HandleMenu}>Medical VA</Link></li>
           <li><Link to="/marketing" onClick={HandleMenu}>Marketing</Link></li>
           <li><Link to="/testimonials" onClick={HandleMenu}>Testimonials</Link></li>
-          <li><Link to="/blog" onClick={HandleMenu}>Blog</Link></li>
+          <li><Link to="/blog" onClick={HandleMenu}>Blogs</Link></li>
         </ul>
       <button className='btn-main'>Contact US</button>
       
