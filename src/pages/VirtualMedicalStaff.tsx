@@ -1,6 +1,6 @@
 import React from 'react';
 import girlhero from '../assets/girlhero.png'
-import Servicescards from '../components/servicescards';
+import Servicescards from '../components/Servicescards';
 
 const VirtualMedicalStaff: React.FC = () => {
   return (
