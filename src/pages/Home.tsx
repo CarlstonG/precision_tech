@@ -13,21 +13,15 @@ const Home: React.FC = () => {
         <div className='card'>
         <h2>Our Services</h2>
             <p>General Virtual Assistant</p> 
-            <p>Onboarding VA</p> 
             <p>Digital Marketing VA</p> 
             <p>Appointment Setting VA</p> 
-            <p>Medical VA</p> 
-            <p>Lead Gen VA</p> 
             <p>Executive VA</p> 
-            <p>Virtual Transcription Assistant</p> 
-            <p>Virtual Assistant Specialist</p> 
+            <p>Virtual Transcription</p> 
             <p>Chat Support</p> 
             <p>Web Design/Development</p>  
-            <p>Backoffice Task</p> 
-            <p>SEO</p> 
+            <p>Marketing</p> 
             <p>Content Writing</p> 
             <p>Graphics Design</p> 
-            <p>Video Editing</p> 
             <p>Book Keeping</p> 
 
       </div>

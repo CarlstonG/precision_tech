@@ -1,6 +1,4 @@
 import React from 'react'
-import { Route } from 'react-router-dom';
-
 import Home from './Home'
 import AboutUs from './AboutUs'
 import VirtualMedicalStaff from './VirtualMedicalStaff';
@@ -9,8 +7,6 @@ import MedicalBillers from './MedicalBillers';
 import Marketing from './Marketing';
 import Testimonials from './Testimonials';
 import Blog from './Blog';
-
-
 
 
 const routes = [

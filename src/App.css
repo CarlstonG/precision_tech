@@ -65,10 +65,11 @@ a:hover {
 /* Hero Section */
 
 .hero-banner{
+  padding-top: 50px;
   display: flex;
-  height: 1350px;
+  height: 1150px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2) url('./assets/heroBanner.jpg') center/cover no-repeat; 
+  background: rgba(0, 0, 0, 0.2) url('./assets/landingbannernotext.png') center/cover no-repeat; 
   align-items: center;
   justify-content: center;
   
@@ -108,7 +109,7 @@ a:hover {
   display: flex;
   margin-top: 100px;
   width: 700px;
-  height: 500px;
+  height: 510px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
 /* Footer Layout */

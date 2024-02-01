@@ -1,0 +1,66 @@
+.services-card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    width: 500px;
+    height: 500px;
+    margin: 50px 5px;
+    border-radius: 15px;
+    border: 1px solid #09d2f1;
+}
+.services:hover{
+    box-shadow: 0 16px 20px rgba(0, 0, 0, 0.3)
+}
+
+ .Card1 {
+    background:  url('../assets/humannogb1.png') center/cover no-repeat; 
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
+}
+ .Card2 {
+    background:  url('../assets/humannobg2.png') center/cover no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
+}
+ .Card3 {
+    background:  url('../assets/humannobg3.png') center/cover no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
+}
+
+.Card1 h2{
+   color: rgb(0, 174, 255);
+   padding: 20px 20px;
+  
+}
+.Card1 p {
+    padding: 10px 20px;
+     font-weight: 600;
+}
+.Card2 h2{
+    color: rgb(0, 174, 255);
+    padding: 20px 20px;
+   
+ }
+ .Card2 p {
+     padding: 10px 20px;
+      font-weight: 600;
+ }
+ .Card3 h2{
+    color: rgb(0, 174, 255);
+    padding: 20px 20px;
+   
+ }
+ .Card3 p {
+     padding: 10px 20px;
+      font-weight: 600;
+ }
+ 
+ 
+
+@media only screen and (max-width: 768px){
+    .services-card-container {
+        display: block;
+    }
+    
+}
