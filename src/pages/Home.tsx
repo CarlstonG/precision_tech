@@ -1,5 +1,6 @@
 import React from 'react'
 import model from '../assets/model1.jpg'
+import BLogCards from '../components/BlogCards'
 
 const Home: React.FC = () => {
   
@@ -12,25 +13,23 @@ const Home: React.FC = () => {
         </div>
         <div className='card'>
         <h2>Our Services</h2>
-            <p>General Virtual Assistant</p> 
-            <p>Digital Marketing VA</p> 
-            <p>Appointment Setting VA</p> 
-            <p>Executive VA</p> 
-            <p>Virtual Transcription</p> 
-            <p>Chat Support</p> 
-            <p>Web Design/Development</p>  
-            <p>Marketing</p> 
-            <p>Content Writing</p> 
-            <p>Graphics Design</p> 
-            <p>Book Keeping</p> 
+            <p><i className="fa fa-star"></i> General Virtual Assistant</p> 
+            <p><i className="fa fa-star"></i> Digital Marketing VA</p> 
+            <p><i className="fa fa-star"></i> Appointment Setting VA</p> 
+            <p><i className="fa fa-star"></i> Executive VA</p> 
+            <p><i className="fa fa-star"></i> Virtual Transcription</p> 
+            <p><i className="fa fa-star"></i> Chat Support</p> 
+            <p><i className="fa fa-star"></i> Web Design/Development</p>  
+            <p><i className="fa fa-star"></i> Marketing</p> 
+            <p><i className="fa fa-star"></i> Content Writing</p> 
+            <p><i className="fa fa-star"></i> Graphics Design</p> 
+            <p><i className="fa fa-star"></i> Book Keeping</p> 
 
       </div>
         </div>
-        
+       
     </div>
-    {/* <div>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut odit quas accusamus natus, optio perspiciatis. Veritatis blanditiis in exercitationem alias illum inventore temporibus, repellendus cum repudiandae id fugiat expedita ad voluptas, officia vero nesciunt minima, unde molestiae ea. Impedit quidem odit aliquid quasi non magnam molestias est dicta ipsa eos.
-    </div> */}
+    <BLogCards/>
     </>
   )
 }
