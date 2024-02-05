@@ -3,7 +3,6 @@ import Home from './Home'
 import AboutUs from './AboutUs'
 import VirtualMedicalStaff from './VirtualMedicalStaff';
 import Rcm from './Rcm';
-import MedicalBillers from './MedicalBillers';
 import Marketing from './Marketing';
 import Testimonials from './Testimonials';
 import Blog from './Blog';
