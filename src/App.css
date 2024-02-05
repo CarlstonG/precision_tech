@@ -49,10 +49,14 @@ a:hover {
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  background-color: rgb(242, 60, 60);
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
   margin: 5px 10px;
   font-family: "Poppins", sans-serif;
+  border-top: 2px solid rgba(255, 49, 49, 0.5);
+  border-right: 2px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(57, 255, 20, 0.5);
+  border-left: 2px solid rgba(88, 241, 6, 0.5);
 }
 .btn-main:hover{
   opacity: 0.7;
@@ -63,7 +67,32 @@ a:hover {
 }
 
 /* Hero Section */
-
+.HeroNew{
+  padding-top: 50px;
+  display: flex;
+  height: 1150px;
+  width: 100%;
+  background: rgba(0, 0, 0, 1) url('./assets/techbanner.jpg') center/cover no-repeat; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.text-container {
+  justify-content: center;
+  padding-bottom: 200px;
+ 
+}.text-container h1{
+  display: flex;
+  padding: 2px 2px;
+  font-weight: 900;
+  font-size: 4.5rem;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #000000;
+}
+.text-container h2 {
+  color: #fff;
+}
 .hero-banner{
   padding-top: 50px;
   display: flex;
@@ -159,27 +188,27 @@ a:hover {
   color: rgb(242, 60, 60);;
 }
 /* Virutal Staff page */
-.VirtualStaff {
-  display: flex;
-  height: 100vh;
-  
-}
+
 .VirtualStaff {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  text-align: center;
   height: 100vh; /* Adjust the height as needed */
+ 
+  
 }
 
 .card-img {
-  max-width: 100%;
-  max-height: 70vh; /* Adjust the maximum height as needed */
+  padding-top: 75px;
+
+ 
+  
+ /* Adjust the maximum height as needed */
 }
 
 .card-img img {
-  width: 650px;
-  height:750px;
-  padding-bottom: 50px;
+  height:700px;
   object-fit: cover; /* Adjust the value as needed (cover, contain, etc.) */
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
@@ -243,6 +272,10 @@ a:hover {
     position: absolute;
     top: -300px;
   }
+  .card-img img{
+    width: 100%;
+  
+  }
   .navbar .toggle-icon{
   
     display: block;
@@ -281,5 +314,12 @@ a:hover {
     display: flex;
     justify-content: center;
     padding-top: 2px;
+  }
+
+  /* new hero banner */
+ 
+
+  .text-container h1{
+    font-size: 3rem;
   }
 }

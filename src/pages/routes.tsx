@@ -14,7 +14,7 @@ const routes = [
     {path: '/about-us', component: AboutUs},
     {path: '/Virtual-medical-staff', component: VirtualMedicalStaff},
     {path: '/rcm', component: Rcm},
-    { path: "/medical-billers", component: MedicalBillers },
+    { path: "/aboutus", component: AboutUs },
     { path: "/marketing", component: Marketing },
     { path: "/testimonials", component: Testimonials },
     { path: "/blog", component: Blog }

@@ -6,6 +6,13 @@ const Home: React.FC = () => {
   
   return (
     <>
+   <div className="HeroNew">
+        <div className="text-container">
+          <h1>Elevate Your Efficiency with PrecisionTech Solutions</h1>
+          <h2>Your Virtual Assistant Partner in Progress</h2>
+        </div>
+   </div>
+   <BLogCards/>
    <div className='hero-banner'>
         <div className="cards-container">
         <div className='object1'>
@@ -29,7 +36,7 @@ const Home: React.FC = () => {
         </div>
        
     </div>
-    <BLogCards/>
+   
     </>
   )
 }
