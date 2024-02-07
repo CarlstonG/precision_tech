@@ -1,7 +1,7 @@
 import React, {useState, useEffect, Key} from 'react';
 import ResponsiveCards from '../components/BlogCards';
 import sanityClient from "../client";
-import { Link } from 'react-router-dom';
+
 
 interface Post {
   _id: Key | null | undefined;
