@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "types": ["@types/sanity__block-content-to-react"],
+  
     "allowJs": true,
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -15,6 +15,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "files": [
+      "@types/block-content-to-react.d.ts"
+    ],
 
     /* Linting */
     "strict": true,
@@ -22,6 +25,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/client.js"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
