@@ -68,7 +68,7 @@ const OnePost: React.FC = () => {
       <div className='content-blog'>
         <BlockContent
         blocks={postData.body}
-        projectId='7to9u4nu'
+        projectId={import.meta.env.VITE_REACT_APP_SANITY_PROJECT_ID}
         />
       </div>
     </div>
