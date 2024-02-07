@@ -48,16 +48,16 @@ useEffect(() => {
 
   return (
     <>
-    <div className="blogcard-container">
+    <div className="blogcard-container-main">
     <div className="blogcard-container">
       {allPost && allPost.length > 0 && (
-        <Link to={`/blog/${allPost[0].slug.current}`} key={allPost[0]._id}>
+        <a href={`/blog/${allPost[0].slug.current}`} key={allPost[0]._id}>
           {/* Render the content of your link, for example, the post title */}
           <div className="blog-post-content">
             <img src={allPost[0].mainImage.asset.url} alt="Main Hero Blog Post" />
             <h2>{allPost[0].title}</h2>
           </div>
-        </Link>
+        </a>
   )}
 </div>
         

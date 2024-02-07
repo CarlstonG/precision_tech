@@ -1,10 +1,10 @@
 // SinglePost.tsx
-
 import React, { useEffect, useState } from 'react';
 import sanityClient from "../client";
 import { useParams } from 'react-router-dom';
 import BlockContent from '@sanity/block-content-to-react'
 
+import './blogstyle.css'
 interface Post {
   authorImage: string | undefined;
   name: string;
@@ -65,7 +65,7 @@ const OnePost: React.FC = () => {
       <img src={postData.mainImage.asset.url} alt="Main Hero Blog Post" />
       <h4>{postData.name}</h4>
       {/* Convert the body object to a string */}
-      <div>
+      <div className='content-blog'>
         <BlockContent
         blocks={postData.body}
         projectId='7to9u4nu'

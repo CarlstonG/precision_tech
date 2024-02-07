@@ -1,6 +1,5 @@
 // ResponsiveCards component
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './componentsStyle.css'; // Import the CSS file
 
 interface CardData {
@@ -19,7 +18,7 @@ const ResponsiveCards: React.FC<ResponsiveCardsProps> = ({ data }) => {
   return (
     <div className="container-blog">
       {data.map((card) => (
-        <Link to={`/blog/${card.slug}`} key={card.id}>
+        <a className='noHover' href={`/blog/${card.slug}`} key={card.id}>
           <div className="card-blog" key={card.id}>
             <div
               className="Blog-Hero"
@@ -33,7 +32,7 @@ const ResponsiveCards: React.FC<ResponsiveCardsProps> = ({ data }) => {
             <h2>{card.title}</h2>
             <p>{card.content}</p>
           </div>
-        </Link>
+        </a>
       ))}
     </div>
   );

@@ -25,12 +25,13 @@ const HandleMenu = () => {
           <li></li>
           <li><Link to="/virtual-medical-staff" onClick={HandleMenu}>Virtual Staff</Link></li>
           <li><Link to="/rcm" onClick={HandleMenu}>Web Solutions</Link></li>
-          <li><Link to="/marketing" onClick={HandleMenu}>Marketing</Link></li>
           <li><Link to="/aboutus" onClick={HandleMenu}>About-US</Link></li>
           <li><Link to="/testimonials" onClick={HandleMenu}>Testimonials</Link></li>
           <li><Link to="/blog" onClick={HandleMenu}>Blogs</Link></li>
         </ul>
-      <button className='btn-main'>Contact US</button>
+        <Link to="/contactus" className="btn-main">
+        Contact Us
+      </Link>
       
       </nav>
     

@@ -7,6 +7,7 @@ import Marketing from './Marketing';
 import Testimonials from './Testimonials';
 import Blog from './Blog';
 import OnePost from '../components/OnePost'
+import ContactUs from './ContactUs';
 
 
 const routes = [
@@ -17,6 +18,7 @@ const routes = [
     { path: "/aboutus", component: AboutUs },
     { path: "/marketing", component: Marketing },
     { path: "/testimonials", component: Testimonials },
+    { path: "/contactus", component: ContactUs },
     { path: "/blog", component: Blog, exact: true },
     { path: "/blog/:slug", component: OnePost },
 ];

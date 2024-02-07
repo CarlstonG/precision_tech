@@ -1,18 +1,21 @@
 import React from 'react'
 import model from '../assets/model1.jpg'
-import img1 from '../assets/nologobanner.png'
-import { Link } from 'react-router-dom'
-
+import img1 from '../assets/success.jpg'
+import img2 from '../assets/headphone.jpg'
+import img3 from '../assets/heroBanner.jpg'
+import img4 from '../assets/earn.jpg'
+import img5 from '../assets/web.jpg'
+import img6 from '../assets/call.jpg'
 
 const Home: React.FC = () => {
 
   const cardsData = [
-    { id: 1, title: 'Success Expert', content: 'Lorem ipsum dolor sit amet.', imageUrl: img1 },
-    { id: 2, title: 'Why you Need VAs', content: 'Consectetur adipiscing elit.', imageUrl: img1 },
-    { id: 3, title: 'The support that you need', content: 'Sed do eiusmod tempor incididunt.', imageUrl: img1 },
-    { id: 4, title: 'Earn More spend Less', content: 'Ut labore et dolore magna aliqua.' , imageUrl: img1},
-    { id: 5, title: 'Importance of a website', content: 'Duis aute irure dolor in reprehenderit.', imageUrl: img1 },
-    { id: 6, title: 'Close call business strat', content: 'Excepteur sint occaecat cupidatat non proident.', imageUrl: img1 },
+    { id: 1, title: 'Success Expert', content: 'You will be more successful.', imageUrl: img1 },
+    { id: 2, title: 'Why you Need VAs', content: 'Businesses can scale their support by hiring Virtual Assistants as needed, adjusting to workload fluctuations without the commitment of a full-time employee.', imageUrl: img2 },
+    { id: 3, title: 'The support that you need', content: 'Get the support you need for a successful journey.', imageUrl: img3 },
+    { id: 4, title: 'Earn More spend Less', content: 'Efficient tasks management helps you earn more and spend less time.' , imageUrl: img4},
+    { id: 5, title: 'Importance of a website', content: 'Having an online presence is crucial for success in today\'s digital age.', imageUrl: img5 },
+    { id: 6, title: 'Close call business strat', content: 'Strategize your business for close calls and success.', imageUrl: img6 },
   ];
   
   return (
@@ -31,7 +34,8 @@ const Home: React.FC = () => {
               </div>
                 <h2>{card.title}</h2>
                 <p>{card.content}</p>
-              
+                <br />
+                <button className='btn-main'>Contact US</button>
             </div>
 
           ))}

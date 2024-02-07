@@ -67,9 +67,10 @@
    
   }
   
+  
   .card-blog {
     width: 400px;
-    height: 300px;
+    height: 550px;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -81,20 +82,27 @@
   .card-blog h2, p{
     padding: 5px 10px;
   }
+  .card-blog p{
+    font-size: 20px;
+  }
   .card-blog:hover{
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
   }
 
   .Blog-Hero {
+ 
+    justify-content: center;
+    align-items: center;
     display: flex;
     background-size: cover;
     position: relative;
     opacity: 1;
+    padding-top: 5px;
   }
- 
+
  
   
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     .card {
       width: 100%;
     }
