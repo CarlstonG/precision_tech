@@ -7,6 +7,7 @@ import './App.css';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
+ 
   return (
     <Router>
       <>

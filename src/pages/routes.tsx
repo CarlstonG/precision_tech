@@ -6,18 +6,20 @@ import Rcm from './Rcm';
 import Marketing from './Marketing';
 import Testimonials from './Testimonials';
 import Blog from './Blog';
+import OnePost from '../components/OnePost'
 
 
 const routes = [
-    {path: '/', component: Home},
-    {path: '/about-us', component: AboutUs},
-    {path: '/Virtual-medical-staff', component: VirtualMedicalStaff},
-    {path: '/rcm', component: Rcm},
+    { path: '/', component: Home, exact: true },
+    { path: '/about-us', component: AboutUs },
+    { path: '/Virtual-medical-staff', component: VirtualMedicalStaff },
+    { path: '/rcm', component: Rcm },
     { path: "/aboutus", component: AboutUs },
     { path: "/marketing", component: Marketing },
     { path: "/testimonials", component: Testimonials },
-    { path: "/blog", component: Blog }
-]
+    { path: "/blog", component: Blog, exact: true },
+    { path: "/blog/:slug", component: OnePost },
+];
 export type RouteType = {
     path: string;
     component: React.FC;

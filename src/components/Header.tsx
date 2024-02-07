@@ -19,7 +19,8 @@ const HandleMenu = () => {
       <nav className={toggle? 'navbar expanded' : 'navbar'}>
       <Link to="/" onClick={HandleMenu}> <img src={Logo} alt="Logo"  className='logo' onClick={HandleMenu}/></Link>
      
-      <button className='toggle-icon' onClick={handleToggle}><i className="fa fa-star" style={{ color: 'black' }}></i></button>
+      <button className='toggle-icon' onClick={handleToggle}><i className="fa fa-bars" style={{ color: 'black' }}></i>
+</button>
         <ul className='links'>
           <li></li>
           <li><Link to="/virtual-medical-staff" onClick={HandleMenu}>Virtual Staff</Link></li>

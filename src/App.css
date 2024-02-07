@@ -212,6 +212,24 @@ a:hover {
   object-fit: cover; /* Adjust the value as needed (cover, contain, etc.) */
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
+/* blog */
+.blogcard-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  padding-top: 100px;
+  width: 100%;
+   /* Make the container take the full height of the viewport */
+}
+
+.blogcard-container img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container height */
+}
+.blogcard-container h2{
+  padding-top: 15px;
+  text-align: center;
+}
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
   body, html {
@@ -257,8 +275,9 @@ a:hover {
     opacity: 1;
   }
   .navbar.expanded .links li{
-    margin: 10px 0;
-    font-size: 24px;
+    margin: 8px 0;
+    font-size: 20px;
+   
   }
   .navbar.expanded .btn-main{
     position: absolute;
@@ -279,17 +298,17 @@ a:hover {
   .navbar .toggle-icon{
   
     display: block;
-    padding: 5px 5px;
+    padding: 5px 10px;
     color: #D9D2C3;
     position: absolute;
-    top: 40px;
+    top: 35px;
     right: 30px;
     z-index: 9999;
-    -webkit-transform: rotate(90deg); /* Safari and Chrome */
-    -moz-transform: rotate(90deg);   /* Firefox */
-    -ms-transform: rotate(90deg);   /* IE 9 */
-    -o-transform: rotate(90deg);   /* Opera */
-    transform: rotate(90deg);
+    font-family: "Poppins", sans-serif;
+    border-top: 2px solid rgba(255, 49, 49, 0.5);
+    border-right: 2px solid rgba(0, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(57, 255, 20, 0.5);
+    border-left: 2px solid rgba(88, 241, 6, 0.5);
   }
   /* footer */
   .Card-Container {

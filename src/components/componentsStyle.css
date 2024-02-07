@@ -84,7 +84,10 @@
   .card-blog:hover{
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
   }
+
   .Blog-Hero {
+    display: flex;
+    background-size: cover;
     position: relative;
     opacity: 1;
   }
