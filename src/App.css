@@ -392,7 +392,7 @@ button:hover {
   }
   .navbar.expanded  .logo{
     position: relative;
-    top: 210px;
+    top: 220px;
     
   }
   .navbar.expanded{
@@ -416,7 +416,7 @@ button:hover {
   }
   .navbar.expanded .btn-main{
     position: absolute;
-    top: 500px;
+    top: 450px;
   }
   .navbar .btn-main{
     position: absolute;
