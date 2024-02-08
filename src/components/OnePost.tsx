@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import sanityClient from "../client";
 import { useParams } from 'react-router-dom';
-// import BlockContent from '@sanity/block-content-to-react'
+import BlockContent from '@sanity/block-content-to-react'
 
 import './blogstyle.css'
 interface Post {
@@ -66,10 +66,10 @@ const OnePost: React.FC = () => {
       <h4>{postData.name}</h4>
       {/* Convert the body object to a string */}
       <div className='content-blog'>
-        {/* <BlockContent
+        <BlockContent
         blocks={postData.body}
         projectId={import.meta.env.VITE_REACT_APP_SANITY_PROJECT_ID}
-        /> */}
+        />
       </div>
     </div>
   );

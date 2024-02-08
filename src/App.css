@@ -234,6 +234,41 @@ a:hover {
   padding-top: 15px;
   text-align: center;
 }
+/* blogs section 2 */
+.blogcard-multiple{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+  height: 150vh;
+  width: 100%;
+  padding-top: 100px;
+  z-index: 9999;
+
+}
+
+.main-blog-contain{
+  display: flex;
+ justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+.main-blog-contain img {
+  background-size: cover;
+  position: relative;
+  width:100%;
+}
+.main-blog-contain h2{
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+
 /* contactus */
 .contact-form-container {
   display: flex;
@@ -385,6 +420,10 @@ button:hover {
     border-left: 2px solid rgba(88, 241, 6, 0.5);
   }
   /* footer */
+  .Footer-Container{
+    position: absolute;
+    overflow: hidden;
+  }
   .Card-Container {
     height: 320px;
     display: block;

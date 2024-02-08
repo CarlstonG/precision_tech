@@ -63,17 +63,20 @@ useEffect(() => {
 </div>
         
     </div>
-    <div>
-              <ResponsiveCards
-              data={allPost.map((post, index) => ({
-                id: index,
-                title: post.title,
-                content: 'Read More...',
-                imageUrl: post.mainImage.asset.url,
-                slug: post.slug.current, // Add this line
-              }))}
-            />
-        </div>
+                  <div className="blogcard-multiple">
+               
+                  {allPost && allPost.length > 0 && (
+                    allPost.map((post) => (
+                      <div className='main-blog-contain'>
+                      <Link key={post._id} to={`/blog/${post.slug.current}`}>
+                          <img src={post.mainImage.asset.url} alt="Main Hero Blog Post" />
+                          <h2>{post.title}</h2>
+                      </Link>
+                      </div>
+                    ))
+                  )}
+              </div>
+
     </>
   );
 }
