@@ -331,6 +331,32 @@ button:hover {
   width: 100%;
 
 }
+/* Web solutions */
+.web-container {
+  padding-top: 50px;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.959) url('./assets/webdev.jpg') center/cover no-repeat; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.extra-web{
+  height: 100vh;
+  margin-bottom: 250px;
+}
+/* team */
+.header-team{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.Img-Hero{
+  background-size: cover;
+}
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
   .contact-form-card {
