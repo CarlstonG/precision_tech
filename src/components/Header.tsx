@@ -23,7 +23,7 @@ const HandleMenu = () => {
 </button>
         <ul className='links'>
           <li></li>
-          <li><Link to="/virtual-medical-staff" onClick={HandleMenu}>Virtual Staff</Link></li>
+          <li><Link to="/virtual-medical-staff" onClick={HandleMenu}>Services</Link></li>
           <li><Link to="/rcm" onClick={HandleMenu}>Web Solutions</Link></li>
           <li><Link to="/aboutus" onClick={HandleMenu}>About-US</Link></li>
           <li><Link to="/testimonials" onClick={HandleMenu}>Testimonials</Link></li>

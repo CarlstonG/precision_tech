@@ -6,7 +6,7 @@ const Servicescards: React.FC = () => {
   return (
     <div className="services-card-container">
         <div className="services Card1">
-            <h2>✔ Discover </h2>
+            <h2> Discover </h2>
             <p>✔ Bookkeeping</p>
             <p>✔ Executive Virtual Assistant</p>
             <p>✔ Virtual Transcriptionist</p>
