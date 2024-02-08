@@ -62,6 +62,8 @@ const OnePost: React.FC = () => {
   return (
     <div className="single-blog-container">
       <h2>{postData.title}</h2>
+      <br />
+      <br />
       <img src={postData.mainImage.asset.url} alt="Main Hero Blog Post" />
       <h4>{postData.name}</h4>
       {/* Convert the body object to a string */}
