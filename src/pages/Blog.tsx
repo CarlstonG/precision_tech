@@ -1,6 +1,7 @@
 import React, {useState, useEffect, Key} from 'react';
 import ResponsiveCards from '../components/BlogCards';
 import sanityClient from "../client";
+import { Link } from 'react-router-dom';
 
 
 interface Post {
@@ -51,13 +52,13 @@ useEffect(() => {
     <div className="blogcard-container-main">
     <div className="blogcard-container">
       {allPost && allPost.length > 0 && (
-        <a href={`/blog/${allPost[0].slug.current}`} key={allPost[0]._id}>
+        <Link to={`/blog/${allPost[0].slug.current}`} key={allPost[0]._id}>
           {/* Render the content of your link, for example, the post title */}
           <div className="blog-post-content">
             <img src={allPost[0].mainImage.asset.url} alt="Main Hero Blog Post" />
             <h2>{allPost[0].title}</h2>
           </div>
-        </a>
+        </Link>
   )}
 </div>
         

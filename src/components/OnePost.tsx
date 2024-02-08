@@ -47,7 +47,7 @@ const OnePost: React.FC = () => {
           }`,
           { slug }
         );
-
+        console.log('Fetch', data)
         setPostData(data);
       } catch (err) {
         console.log(err);

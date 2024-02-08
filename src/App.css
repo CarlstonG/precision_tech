@@ -240,7 +240,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding-top: 150px;
+  padding-top: 190px;
   padding-bottom: 100px;
 }
 
@@ -250,11 +250,12 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 90%; /* Adjusted for responsiveness */
   max-width: 600px;
-  height: 100%;
+  height: 80%;
   text-align: center;
 }
 
 .form-group {
+ 
   margin-bottom: 20px;
 }
 
@@ -273,10 +274,13 @@ textarea {
   margin-bottom: 10px;
 }
 
-button {
-  background-color: #007bff;
+.contact-form-card button {
+  background-color: #3e7cbe;
   color: white;
+  font-weight: 700;
   padding: 10px 20px;
+  width: 200px;
+  border-radius: 15px;
   border: none;
   cursor: pointer;
 }
@@ -284,11 +288,18 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+.rcm-container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 
+}
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
   .contact-form-card {
-    width: 100%;
+    width: 90%;
     max-width: none;
   }
 }

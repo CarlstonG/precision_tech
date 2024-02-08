@@ -29,36 +29,37 @@ const ContactUs:React.FC = () => {
           <h2>Contact Us</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name"></label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                placeholder='Name'
                 required
               />
             </div>
   
             <div className="form-group">
-              <label htmlFor="email">Email:</label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder='Email'
                 required
               />
             </div>
   
             <div className="form-group">
-              <label htmlFor="comment">Comment:</label>
               <textarea
                 id="comment"
                 name="comment"
                 value={formData.comment}
                 onChange={handleChange}
+                placeholder='Comment'
                 required
               />
             </div>
