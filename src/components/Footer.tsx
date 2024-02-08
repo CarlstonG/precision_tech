@@ -28,9 +28,9 @@ const Footer: React.FC = () => {
             <h4><i className="fas fa-globe" style={{ fontSize: '24px', color: '#06ccf9' }}></i> Socials</h4>
             </div>
             <div className='Card-Container-right'>
-            <a href="#"  target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook" style={{ fontSize: '24px', color: '#06ccf9' }}></i></a>
-            <a href="#"  target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter" style={{ fontSize: '24px', color: '#06ccf9' }}></i></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{ fontSize: '24px', color: '#06ccf9' }}></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61556199329621"  target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook" style={{ fontSize: '24px', color: '#06ccf9' }}></i></a>
+            <a href="#"  target="_blank" rel="noopener noreferrer" ><i className="fab fa-twitter" style={{ fontSize: '24px', color: '#06ccf9' }}></i></a>
+            <a href="https://www.linkedin.com/company/precisiontech-solutions-inc" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{ fontSize: '24px', color: '#06ccf9' }}></i></a>
         </div>
         </div>
       
