@@ -157,10 +157,14 @@ a:hover {
   text-align: center;
 }
 .Ph-flag{
+  background-color: transparent;
+  border-radius: 50%;
   position: relative;
   margin-bottom: -7px;
-  width: 35px;
+  width: 45px;
   height: 30px;
+ 
+ 
 }
 .copy-write{
   font-size: 15px;

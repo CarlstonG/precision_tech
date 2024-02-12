@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Logo from '../assets/logo2.png'
-import Ph from '../assets/ph.png'
+
 
 const Footer: React.FC = () => {
     const [currentYear, setCurrentYear] = useState(new Date().getFullYear())
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             <img src={Logo} alt="logo2" className='logo-footer'/>
             <div className='Info-footer'>
             <h4>Precision<span className='tech'>Tech</span> Solutions</h4>
-            <h4><i className="fas fa-phone" style={{ fontSize: '24px', color: '#06ccf9' }}></i><img src={Ph} alt="ph" className='Ph-flag'/> 00-63-355-316-881</h4> 
+            <h4><i className="fas fa-phone" style={{ fontSize: '24px', color: '#06ccf9' }}></i>  +44 115 888 3001</h4>
             <h4><i className="fas fa-envelope" style={{ fontSize: '24px', color: '#06ccf9' }}></i> Discover@precisiontech-solutions.com</h4>
             <h4><i className="fas fa-globe" style={{ fontSize: '24px', color: '#06ccf9' }}></i> Socials</h4>
             </div>
