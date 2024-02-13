@@ -5,9 +5,17 @@ import img3 from '../assets/heroBanner.jpg'
 import img4 from '../assets/earn.jpg'
 import img5 from '../assets/web.jpg'
 import img6 from '../assets/call.jpg'
+import { useNavigate } from 'react-router-dom';
 
 import '../App.css'
 const Rcm: React.FC = () => {
+
+const navigate = useNavigate()
+
+const HandleNav = () => {
+  navigate('/contactus')
+}
+
   const cardsData = [
     { id: 1, title: 'Success Expert', content: 'You will be more successful.', imageUrl: img1 },
     { id: 2, title: 'Why you Need VAs', content: 'Businesses can scale their support by hiring Virtual Assistants as needed, adjusting to workload fluctuations without the commitment of a full-time employee.', imageUrl: img2 },
@@ -37,7 +45,7 @@ const Rcm: React.FC = () => {
                 <h2>{card.title}</h2>
                 <p>{card.content}</p>
                 <br />
-                <button className='btn-main'>Contact US</button>
+                <button onClick={HandleNav} className='btn-main'>Contact US</button>
             </div>
 
           ))}

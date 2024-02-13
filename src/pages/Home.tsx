@@ -6,8 +6,16 @@ import img3 from '../assets/heroBanner.jpg'
 import img4 from '../assets/earn.jpg'
 import img5 from '../assets/web.jpg'
 import img6 from '../assets/call.jpg'
+import { useNavigate } from 'react-router-dom';
 
 const Home: React.FC = () => {
+
+  const navigate = useNavigate();
+
+  const handleButtonNav = () => {
+    navigate('/ContactUs')
+  }
+
 
   const cardsData = [
     { id: 1, title: 'Success Expert', content: 'You will be more successful.', imageUrl: img1 },
@@ -35,7 +43,7 @@ const Home: React.FC = () => {
                 <h2>{card.title}</h2>
                 <p>{card.content}</p>
                 <br />
-                <button className='btn-main'>Contact US</button>
+                <button className='btn-main' onClick={handleButtonNav}>Contact US</button>
             </div>
 
           ))}

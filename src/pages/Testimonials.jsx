@@ -1,7 +1,7 @@
 import ImageSlider from "../components/ImageSlider";
-import Img1 from '../assets/web.jpg';
-import Img2 from '../assets/girlhero.png';
-import img3 from '../assets/techbanner.jpg';
+import Img1 from '../assets/comment1.png';
+import Img2 from '../assets/comment2.png';
+import img3 from '../assets/comment3.png';
 
 
 
@@ -13,16 +13,17 @@ const App = () => {
   ];
   const containerStyles = {
    
-    width: "900px",
-    height: "100vh",
+    width: "1000px",
+    height: "1400px",
     margin: "0 auto",
     paddingTop: "200px",
-    paddingBottom: "200px",
+    paddingBottom: "200px", 
+    backgroundSize: "cover",
   };
   return (
     <div>
-     
-      <div style={containerStyles}>
+      <br/>
+      <div style={containerStyles} className="main-comment-style">
         <br/>
         
         <ImageSlider slides={slides} />

@@ -43,6 +43,7 @@ a:hover {
   background-color: #555;
 }
 .btn-main {
+
   text-align: center;
   height: 50px;
   width: 130px;
@@ -366,6 +367,23 @@ button:hover {
   .contact-form-card {
     width: 90%;
     max-width: none;
+  }
+  .slider-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    background-size: cover;
+    
+ 
+  }
+  .main-comment-style{
+   
+      width: 750px!important;
+      height: 850px!important;
+      background-size: cover;
+      margin: 0px auto !important;
   }
 }
 
