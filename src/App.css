@@ -502,4 +502,13 @@ button:hover {
   .text-container h1{
     font-size: 3rem;
   }
+  /* additional  */
+  .VirtualStaff img{
+    justify-items: center;
+    background-size: cover;
+    align-items: center;
+    padding: 15px 15px;
+    border: none;
+
+  }
 }

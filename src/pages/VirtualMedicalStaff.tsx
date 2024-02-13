@@ -1,5 +1,5 @@
 import React from 'react';
-import girlhero from '../assets/nologobanner.png'
+import girlhero from '../assets/model1.jpg'
 import Servicescards from '../components/Servicescards';
 
 const VirtualMedicalStaff: React.FC = () => {
